@@ -1,0 +1,16 @@
+:root {
+  --neon-blue: #00f3ff;
+  --neon-pink: #ff1493;
+  --neon-cyan: #00ffea;
+  --neon-purple: #bc13fe;
+}
+
+.text-neon-blue { color: var(--neon-blue); }
+.bg-neon-blue { background-color: var(--neon-blue); }
+.border-neon-blue { border-color: var(--neon-blue); }
+.shadow-neon-blue { box-shadow: 0 0 15px var(--neon-blue); }
+/* Repeat for other neon colors */
+
+#nav {
+  padding-bottom: 20px;
+}
